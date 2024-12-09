@@ -1,0 +1,94 @@
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fbe7c6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff7f50;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 5px 0 0;
+}
+
+/* Section principale */
+main {
+    padding: 20px;
+}
+
+/* Titres des sections */
+section h2 {
+    color: #ff4500;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Paragraphe du message */
+section p {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+/* Galerie de souvenirs */
+section div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+section img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Poème */
+blockquote {
+    font-style: italic;
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 10px;
+    border-left: 5px solid #ff4500;
+    background-color: #fff8e7;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff7f50;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2em;
+}
